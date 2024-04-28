@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  svelte-app:
+    build:
+      context: ./WebApp
+      dockerfile: Dockerfile
+    image: area_front
+    container_name: container_front
+    restart: unless-stopped
+    command: npm run dev
+    network_mode: "host"
+
+  server:
+    build:
+      context: ./Server
+      dockerfile: Dockerfile
+    image: area_server
+    container_name: container_server
+    restart: unless-stopped
+    command: npm start
+    network_mode: "host"
+
+  application:
+    build:
+      context: ./Application
+      dockerfile: Dockerfile
+    image: container_application
+    restart: unless-stopped
