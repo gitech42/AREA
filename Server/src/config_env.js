@@ -27,11 +27,11 @@ client = new mongoose.connect(url, {
 console.log("mongoose readyState is " + mongoose.connection.readyState);
 
 module.exports = {
-  secret: "45108410208520",
-  refresh_token_code: "741028521",
+  secret: "can't expose",
+  refresh_token_code: "can't expose",
   google_client_id:
-    "628498484335-sl06q2au17b1522j8bo7lhusf3caq0dl.apps.googleusercontent.com",
-  google_client_secret: "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",
+    "can't expose",
+  google_client_secret: "can't expose",
   google_oauth_redirection: "http://localhost:8080/api/auth/oauth",
   client: client,
 };
