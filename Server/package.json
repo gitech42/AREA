@@ -1,0 +1,52 @@
+{
+  "name": "b-dev-500-ber-5-1-area-yann-arthur.tcheumani",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechPromo2025/B-DEV-500-BER-5-1-area-yann-arthur.tcheumani.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechPromo2025/B-DEV-500-BER-5-1-area-yann-arthur.tcheumani/issues"
+  },
+  "homepage": "https://github.com/EpitechPromo2025/B-DEV-500-BER-5-1-area-yann-arthur.tcheumani#readme",
+  "dependencies": {
+    "@bowwow/pornhub_api": "^1.0.8",
+    "ajax": "^0.0.4",
+    "axios": "^1.1.2",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "coinmarketcap-api": "^3.1.1",
+    "config": "^3.3.8",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-useragent": "^1.0.15",
+    "googleapis": "^108.0.0",
+    "instagram-web-api": "^2.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "loadash": "^1.0.0",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.2",
+    "nodemailer": "^6.8.0",
+    "octokit": "^2.0.10",
+    "path": "^0.12.7",
+    "qs": "^6.11.0",
+    "request-ip": "^3.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "eslint": "^8.24.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
